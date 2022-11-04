@@ -1,0 +1,184 @@
+:root
+{
+    --blue: #2196F3;
+    --white: #ffffff;
+    --gray: #757575;
+    --footer: rgba(255, 255, 255, 0.6);
+    --logo-blk: #000000;
+    --fon-footer: #2F303A;
+    --botton-two: #F5F4FA
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    letter-spacing: 0.03em;
+    color: #212121;
+
+}
+
+.text 
+{
+    text-decoration: none;
+}
+.list {
+    list-style: none;
+}
+
+.header-nav-link
+
+{
+    text-decoration: none;
+    color:inherit ;
+    font-weight: 500;
+line-height: 1.1428;
+letter-spacing: 0.02em;
+}
+.color-active
+{
+    color: var(--blue);
+}
+.web
+{
+font-family: 'Raleway';
+font-weight: 700;
+font-size: 26px;
+line-height: 1.1923;
+color: var(--blue);
+
+
+}
+.studio {
+font-family: 'Raleway';
+font-weight: 700;
+font-size: 26px;
+line-height: 1.1923;
+color: var(--logo-blk)
+
+}
+
+.studio-white {
+font-family: 'Raleway';
+font-weight: 700;
+font-size: 26px;
+line-height: 1.1923;
+color: var(--white);
+
+}
+
+.footer-fon
+{
+background-color: var(--fon-footer);
+}
+
+.contacts
+{
+    font-weight: 500;
+    line-height: 1.1428;
+    letter-spacing: 0.02em;
+    color: var(--gray);
+    text-decoration: none;
+    cursor: default;
+}
+
+.title-font {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.3636; 
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    
+    color: var(--white);
+}
+.color-section
+{
+    background: var(--fon-footer);
+}
+.button-section-index
+{
+font-weight: 700;
+font-size: 16px;
+line-height: 1.875;
+letter-spacing: 0.06em;
+cursor: pointer;
+background: var(--blue);
+color: var(--white);
+}
+
+.paragraph-title-benefits
+{
+font-weight: 400;
+line-height: 1.7142;
+
+color: var(--gray);
+}
+.section-title-benefits
+{
+font-size: 14px;
+line-height: 1.1428;
+}
+.section-title-text
+{
+font-size: 36px;
+line-height: 1.1666;
+}
+.section-name
+{
+font-weight: 500;
+font-size: 16px;
+line-height: 1.1875;
+}
+
+
+.footer-google
+{
+font-weight: normal;
+line-height: 1.7142;
+color: var(--white);
+text-decoration: none;
+cursor: default;
+}
+.footer-text
+{
+        font-weight: normal;
+        line-height: 0.5833;
+        text-decoration: none;
+        color: var(--footer);
+        cursor: default;
+}
+.profession
+{
+font-size: 16px;
+line-height: 1.1875;
+color: var(--gray);
+}
+.button-portfolio {
+font-family: inherit;
+cursor: pointer;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.625;
+background: var(--botton-two);
+border: none;
+}
+.button-portfolio:hover,
+.button-portfolio:focus
+{
+background-color: var(--blue);
+color: var(--white);
+}
+.portfolio-title {
+font-size: 18px;
+line-height: 2.0000;
+letter-spacing: 0.06em;
+}
+.portfolio-paragraf {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.875;
+    color: var(--gray); 
+}
+
+address
+{
+    font-style: normal;
+}
