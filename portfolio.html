@@ -8,45 +8,48 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet" />
     <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.css" integrity="sha512-Y0MM+V6ymRKN2zStTqzQ227DWhhp4Mzdo6gnlRnuaNCbc+YN/ZH0sBCLTM4M0oSy9c9VKiCvd4Jk44aCLrNS5Q==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>Портфоліо</title>
 </head>
 <body>
 <header>
-<nav class="nav">
-    <a class="text" href="/">
-        <span class="web">Web</span><span class="studio">Studio</span>
-    </a>
-    <ul class="list">
-        <li><a class="header-nav-link" href="./index.html">
-         Студія
-     </a>
-     </li>
-        <li>
-         <a class="header-nav-link" href="#">
-         <span class="color-active">Портфоліо</span>
-         </a>
-     </li>
-        <li>
-         <a class="header-nav-link" href="#">
-            Контакти
-         </a>
+    <div class="container">
+    <nav class="nav">
+        <a class="text" href="/">
+            <span class="web">Web</span><span class="studio">Studio</span>
+        </a>
+        <ul>
+            <li><a href="./index.html" class="header-nav-link">Студія</a>
     </li>
-    </ul>
-    </nav>
-
-    <ul class="list">
+            <li>
+             <a  href="#" class="header-nav-link">
+             <span class="color-active">Портфоліо</span>
+             </a>
+         </li>
+            <li>
+             <a href="#" class="header-nav-link">
+                Контакти
+             </a>
+        </li>
+        </ul>
+        </nav>
+    
+        <ul>
+            <li>
+            <a class="contacts" href="mailto:info@devstudio.com">info@devstudio.com</a>
+        </li>
         <li>
-        <a class="contacts" href="mailto:info@devstudio.com">info@devstudio.com</a>
-    </li>
-    <li>
-        <a class="contacts" href="tel:+380961111111">38 096 111 11 11</a>
-    </li>
-    </ul>
+            <a class="contacts" href="tel:+380961111111">38 096 111 11 11</a>
+        </li>
+        </ul>
+    </div>
 </header>
 <main>
-    <section>
+    
+    <section class="section">
+        <div class="container">
 <h1 hidden>Портфоліо</h1>
-<ul class="list">
+<ul>
     <li>
         <button class="button-portfolio" type="button">
             Усі </button>
@@ -121,21 +124,19 @@
         <p class="portfolio-paragraf">Додаток</p>
     </li>
 </ul>
-
-
-
-
-
-
-
+</div>
     </section>
+    
   </main>
+  
+  <div class="container">
   <footer class="footer-fon">
+    
       <a class="text" href="/">
           <span class="web">Web</span><span class="studio-white">Studio</span>
       </a>
       <address>
-          <ul class="list">
+          <ul>
               <li>
                   <a class="footer-google" href="https://goo.gl/maps/ibuLNQxGVC2uv8bN8">м. Київ, пр-т Лесі Українки, 26</a>
                 </li>
@@ -147,6 +148,8 @@
               </li>
           </ul>
       </address>
-  </footer>
+  
+    </footer>
+</div>
 </body>
 </html>

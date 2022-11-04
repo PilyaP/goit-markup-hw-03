@@ -9,52 +9,59 @@
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" 
     rel="stylesheet" />
     <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.css" integrity="sha512-Y0MM+V6ymRKN2zStTqzQ227DWhhp4Mzdo6gnlRnuaNCbc+YN/ZH0sBCLTM4M0oSy9c9VKiCvd4Jk44aCLrNS5Q==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>Студія</title>
 </head>
 <body>
 <header>
-<nav>
-    <a class="text" href="/">
-        <span class="web">Web</span><span class="studio">Studio</span>
-    </a>
-    <ul class="list">
-       <li>
-        <a href="#" class="header-nav-link">
-        <span class="color-active">Студія</span>
-    </a>
-    </li>
-       <li>
-        <a href="./portfolio.html" class="header-nav-link">
-        Портфоліо
+<div class="container">
+    <nav>
+        <a class="text" href="/">
+            <span class="web">Web</span><span class="studio">Studio</span>
         </a>
-    </li>
-       <li>
-        <a href="#" class="header-nav-link">
-        Контакти
+        <ul>
+           <li>
+            <a href="#" class="header-nav-link">
+            <span class="color-active">Студія</span>
         </a>
-    </li>
-    </ul>
-    </nav>
-
-    <ul class="list">
+        </li>
+           <li>
+            <a href="./portfolio.html" class="header-nav-link">
+            Портфоліо
+            </a>
+        </li>
+           <li>
+            <a href="#" class="header-nav-link">
+            Контакти
+            </a>
+        </li>
+        </ul>
+        </nav>
+        
+        <ul class="list">
+            <li>
+            <a href="mailto:info@devstudio.com" class="contacts">info@devstudio.com</a>
+        </li>
         <li>
-        <a href="mailto:info@devstudio.com" class="contacts">info@devstudio.com</a>
-    </li>
-    <li>
-        <a href="tel:+380961111111" class="contacts">38 096 111 11 11</a>
-    </li>
-    </ul>
+            <a href="tel:+380961111111" class="contacts">38 096 111 11 11</a>
+        </li>
+        </ul>
+</div>
 </header>
 <main>
-        <section class="color-section">
+    <div class="container">
+        <section class="color-section section" >
+            
             <h1 class="title-font">Ефективні рішення для вашого бізнесу</h1>
             <button class="button-section-index" type="button">
             Замовити послугу </button>
-        </section>
-
-    <section>
+            </section>
+    </div>
+    
+    <section class="section">
+        <div class="container">
         <h2 hidden>Наші переваги</h2>
-        <ul class="list">
+        <ul>
             <li>
                 <h3 class="section-title-benefits">УВАГА ДО ДЕТАЛЕЙ</h3>
                 <p class="paragraph-title-benefits">
@@ -80,12 +87,15 @@
                 </p>
             </li>
         </ul>
+        </div>
     </section>
 
-    <section>
+    
+    <section class="section">
+        <div class="container">
         <h2 class="section-title-text">Чим ми займаємося</h2>
 
-        <ul class="list">
+        <ul>
             <li>
                 <img src="./images/box1.jpg" alt="Десктопні програми" width=370  height="294" />
             </li>
@@ -96,12 +106,14 @@
                 <img src="./images/box3.jpg" alt="Дизайнерські рішення" width=370  height="294" />
             </li>
         </ul>
+        </div>
     </section>
 
     <section>
+        <div class="container">
         <h2 class="section-title-text">Наша команда</h2>
 
-        <ul class="list">
+        <ul>
             <li>
                 <img src="./images/pers1.jpg" alt="Ігор Дем'яненко"  width=270  height="260">
                 <h3 class="section-name">Ігор Дем'яненко</h3>
@@ -125,25 +137,30 @@
          
         </ul>
 
-    </section>
-    </main>
-    <footer class="footer-fon">
-        <a href="/" class="text">
-            <span class="web">Web</span><span class="studio-white">Studio</span>
-        </a>
-        <address>
-            <ul class="list">
-                <li>
-                    <a class="footer-google" href="https://goo.gl/maps/ibuLNQxGVC2uv8bN8">м. Київ, пр-т Лесі Українки, 26</a>
-                  </li>
-                <li>
-                    <a class="footer-text" href="mailto:info@devstudio.com">info@devstudio.com</a>
-                </li>
-                <li>
-                    <a class="footer-text" href="tel:+380961111111">38 096 111 11 11</a>
-                </li>
-            </ul>
-        </address>
-    </footer>
-</body>
+    </section class="section">
+</div>    
+</main>
+<div class="container">
+    
+        <footer class="footer-fon">
+            <div class="container"></div>
+            <a href="/" class="text">
+                <span class="web">Web</span><span class="studio-white">Studio</span>
+            </a>
+            <address>
+                <ul>
+                    <li>
+                        <a class="footer-google" href="https://goo.gl/maps/ibuLNQxGVC2uv8bN8">м. Київ, пр-т Лесі Українки, 26</a>
+                      </li>
+                    <li>
+                        <a class="footer-text" href="mailto:info@devstudio.com">info@devstudio.com</a>
+                    </li>
+                    <li>
+                        <a class="footer-text" href="tel:+380961111111">38 096 111 11 11</a>
+                    </li>
+                </ul>
+            </address>
+        </footer>
+
+</div>  div </body>
 </html>

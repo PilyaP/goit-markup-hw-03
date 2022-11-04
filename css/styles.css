@@ -8,6 +8,22 @@
     --fon-footer: #2F303A;
     --botton-two: #F5F4FA
 }
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p 
+{
+    margin: 0;
+}
+ul
+{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
 body{
     font-family: 'Roboto', sans-serif;
     font-size: 14px;
@@ -15,13 +31,16 @@ body{
     color: #212121;
 
 }
-
+img
+{
+    display: block;
+}
 .text 
 {
     text-decoration: none;
 }
 .list {
-    list-style: none;
+
 }
 
 .header-nav-link
@@ -178,7 +197,21 @@ letter-spacing: 0.06em;
     color: var(--gray); 
 }
 
+
 address
 {
     font-style: normal;
+}
+.container
+{
+width: 1200px;
+padding-left: 15px;
+padding-right: 15px;
+margin: 0 auto;
+
+}
+.section
+{
+padding-top: 94px;
+padding-bottom: 94px; 
 }
