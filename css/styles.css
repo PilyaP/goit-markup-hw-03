@@ -39,8 +39,8 @@ img
 {
     text-decoration: none;
 }
-.list {
-
+.cards {
+border: 1px solid #EEEEEE;
 }
 
 .header-nav-link
@@ -154,7 +154,7 @@ font-weight: normal;
 line-height: 1.7142;
 color: var(--white);
 text-decoration: none;
-cursor: default;
+
 }
 .footer-text
 {
@@ -162,7 +162,7 @@ cursor: default;
         line-height: 0.5833;
         text-decoration: none;
         color: var(--footer);
-        cursor: default;
+    
 }
 .profession
 {
@@ -208,10 +208,22 @@ width: 1200px;
 padding-left: 15px;
 padding-right: 15px;
 margin: 0 auto;
+flex-wrap: wrap;
 
 }
 .section
 {
 padding-top: 94px;
 padding-bottom: 94px; 
+}
+.img-port
+{
+    padding: 20px 24px;
+    border: 1px solid red;
+}
+
+.portt {
+    display: flex;
+    gap: 30px;
+    
 }
