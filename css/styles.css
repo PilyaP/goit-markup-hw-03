@@ -6,7 +6,8 @@
     --footer: rgba(255, 255, 255, 0.6);
     --logo-blk: #000000;
     --fon-footer: #2F303A;
-    --botton-two: #F5F4FA
+    --botton-two: #F5F4FA;
+    --border: #EEEEEE;
 }
 h1,
 h2,
@@ -38,19 +39,26 @@ img
 .text 
 {
     text-decoration: none;
+
+
 }
 .cards {
-border: 1px solid #EEEEEE;
+border: 1px solid var(--border);
 }
 
 .header-nav-link
 
 {
-    text-decoration: none;
-    color:inherit ;
-    font-weight: 500;
+ text-decoration: none;
+ color:inherit ;
+font-weight: 500;
 line-height: 1.1428;
 letter-spacing: 0.02em;
+
+
+
+
+
 }
 .color-active
 {
@@ -66,12 +74,17 @@ color: var(--blue);
 
 
 }
-.studio {
+.text {
 font-family: 'Raleway';
 font-weight: 700;
 font-size: 26px;
 line-height: 1.1923;
-color: var(--logo-blk)
+color: var(--logo-blk);
+display: flex;
+margin-right: 93px;
+padding-top: 24px;
+padding-bottom: 25px;
+display: block;
 
 }
 
@@ -87,6 +100,10 @@ color: var(--white);
 .footer-fon
 {
 background-color: var(--fon-footer);
+display: flex;
+padding-top: 60px;
+padding-bottom: 60px;
+
 }
 
 .contacts
@@ -96,7 +113,11 @@ background-color: var(--fon-footer);
     letter-spacing: 0.02em;
     color: var(--gray);
     text-decoration: none;
-    cursor: default;
+    display: inline-block;
+    
+
+
+
 }
 
 .title-font {
@@ -105,8 +126,11 @@ background-color: var(--fon-footer);
     line-height: 1.3636; 
     letter-spacing: 0.06em;
     text-transform: uppercase;
-    
     color: var(--white);
+    width: 696px;
+    margin-left: auto;
+    margin-right: auto;
+
 }
 .color-section
 {
@@ -121,12 +145,26 @@ letter-spacing: 0.06em;
 cursor: pointer;
 background: var(--blue);
 color: var(--white);
-}
+border-radius: 4px;
+border: 1px solid var(--logo-blk);
+padding: 10px 32px;
+min-width: 216px;
+text-align: center;
 
+
+}
+.button-first
+{
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+}
 .paragraph-title-benefits
 {
 font-weight: 400;
 line-height: 1.7142;
+
 
 color: var(--gray);
 }
@@ -134,19 +172,29 @@ color: var(--gray);
 {
 font-size: 14px;
 line-height: 1.1428;
+margin-bottom: 10px;
 }
 .section-title-text
 {
 font-size: 36px;
 line-height: 1.1666;
+margin-bottom: 50px;
+text-align: center;
 }
 .section-name
 {
 font-weight: 500;
 font-size: 16px;
 line-height: 1.1875;
+margin-top: 30px;
+margin-bottom: 10px; 
+text-align: center;
 }
-
+.gap-list
+{
+    display: flex;
+    gap: 30px;
+}
 
 .footer-google
 {
@@ -154,7 +202,8 @@ font-weight: normal;
 line-height: 1.7142;
 color: var(--white);
 text-decoration: none;
-
+margin-top: 20px;
+margin-bottom: 39px;
 }
 .footer-text
 {
@@ -162,13 +211,16 @@ text-decoration: none;
         line-height: 0.5833;
         text-decoration: none;
         color: var(--footer);
-    
+        margin-bottom: 9px;
 }
+
 .profession
 {
 font-size: 16px;
 line-height: 1.1875;
 color: var(--gray);
+text-align: center;
+
 }
 .button-portfolio {
 font-family: inherit;
@@ -178,6 +230,9 @@ font-size: 16px;
 line-height: 1.625;
 background: var(--botton-two);
 border: none;
+padding: 6px 22px;
+text-align: center;
+border-radius: 4px;
 }
 .button-portfolio:hover,
 .button-portfolio:focus
@@ -208,7 +263,7 @@ width: 1200px;
 padding-left: 15px;
 padding-right: 15px;
 margin: 0 auto;
-flex-wrap: wrap;
+
 
 }
 .section
@@ -219,11 +274,55 @@ padding-bottom: 94px;
 .img-port
 {
     padding: 20px 24px;
-    border: 1px solid red;
+    border: 1px solid var(--border);
 }
 
 .portt {
     display: flex;
     gap: 30px;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.section-paragraph
+{
+    display: flex;
+    gap: 30px;
+}
+.button-list
+{
+    display: flex;
+    margin-bottom: 50px;
+    margin-top: 95px;
+    gap:8px;
+    justify-content: center;
+}
+
+
+
+.link-item
+{
+    display: flex;
+
+
+}
+.header-container
+{
+    gap: 50px;
+    display: flex;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    text-align: center;
     
+
+}
+
+.contacts-flex
+{
+    display: flex;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    margin-left: 344px;
+    gap: 30px;
 }
