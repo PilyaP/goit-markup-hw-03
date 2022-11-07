@@ -179,8 +179,20 @@ margin-bottom: 10px;
 font-size: 36px;
 line-height: 1.1666;
 margin-bottom: 50px;
+margin-left: auto;
+margin-right: auto;
+width: 366px;}
+.section-title-text-last
+{
+font-size: 36px;
+line-height: 1.1666;
+margin-bottom: 50px;
+margin-left: auto;
+margin-right: auto;
+max-width: 264;
 text-align: center;
 }
+
 .section-name
 {
 font-weight: 500;
@@ -195,7 +207,14 @@ text-align: center;
     display: flex;
     gap: 30px;
 }
-
+.box-item
+{
+    width: calc((100%-60px)/3);
+}
+.item-pers
+{
+    width: calc((100%-90px)/4);
+}
 .footer-google
 {
 font-weight: normal;
@@ -304,6 +323,7 @@ padding-bottom: 94px;
 .link-item
 {
     display: flex;
+    justify-content: space-between;
 
 
 }
@@ -323,6 +343,8 @@ padding-bottom: 94px;
     display: flex;
     padding-top: 32px;
     padding-bottom: 32px;
-    margin-left: 344px;
     gap: 30px;
+}
+.item-portfolio {
+    width: calc((100%-60px)/3);
 }
