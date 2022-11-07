@@ -298,12 +298,12 @@ padding-bottom: 94px;
 
 .portt {
     display: flex;
-    gap: 30px;
-    justify-content: center;
-    align-items: center;
+    gap: 30px; 
     flex-wrap: wrap;
 }
-
+/* .item-portfolio {
+    width: calc((100%-60px)/3); */
+    }
 .section-paragraph
 {
     display: flex;
@@ -344,7 +344,4 @@ padding-bottom: 94px;
     padding-top: 32px;
     padding-bottom: 32px;
     gap: 30px;
-}
-.item-portfolio {
-    width: calc((100%-60px)/3);
 }
