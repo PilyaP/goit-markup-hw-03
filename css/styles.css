@@ -53,13 +53,17 @@ border: 1px solid var(--border);
  color:inherit ;
 font-weight: 500;
 line-height: 1.1428;
-letter-spacing: 0.02em;
+letter-spacing: 0.02em;}
 
-
-
-
+.header-nav-link:hover
+{
+color: var(--blue);
 
 }
+.contacts:hover
+{
+color: var(--blue);}
+
 .color-active
 {
     color: var(--blue);
