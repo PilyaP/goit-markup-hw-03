@@ -379,6 +379,8 @@ padding-bottom: 94px;
 .logo-footer
 {
     margin-bottom: 20px;
+    text-decoration: none;
+
 }
 .footer-google:hover
 {
