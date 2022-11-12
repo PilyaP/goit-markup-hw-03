@@ -140,13 +140,15 @@ background-color: var(--fon-footer);
     display: inline-block;
     padding-top: 32px;
     padding-bottom: 32px;
-
-
-
-
+}
+.padding-zero{
+ padding-top: 0;   
 }
 
-.title-font {
+
+
+
+.hero {
     font-family: 'Roboto';
     font-weight: 900;
     font-size: 44px;
@@ -158,11 +160,10 @@ background-color: var(--fon-footer);
     margin-left: auto;
     margin-right: auto;
     text-align: center;
-
 }
 .color-section
 {
-    padding-bottom: 200px 0;
+    padding: 200px 200px;
     background: var(--fon-footer);
 }
 .button-section-index
@@ -183,6 +184,7 @@ margin-left: auto;
 margin-right: auto;
 display: flex;
 justify-content: center;
+margin-bottom: 30px;
 }
 .third-pad
 {
@@ -390,6 +392,7 @@ padding-bottom: 94px;
 }
 .logo-footer
 {
+    display: block;
     margin-bottom: 20px;
     text-decoration: none;
 
@@ -401,4 +404,5 @@ padding-bottom: 94px;
 .footer-text:hover
 {
     color: var(--blue);
+
 }
